@@ -34,3 +34,10 @@ To use this Qiskit codebase, create a new Python virtual environment based on th
  **Run the authenticate QKD protocols:**
 
  Follow the instruction in the notebook   ``` protocol.ipynb ```
+
+To test different authenticated protocols (AQKD, ASQKD1, ASQKD2), you can change the relevant imported functions here
+```
+from hybridoperations import Bases_preparation_AQKD, measure_message_AQKD
+Bases_preparation = Bases_preparation_AQKD
+measure_message = measure_message_AQKD
+```
